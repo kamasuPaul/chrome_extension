@@ -1,6 +1,10 @@
 {
-    "name":"Kamasu chrome extension",
-    "description":"This is my fist chrome extension that i think wil be about history",
-    "version":"1.0",
-    "manifest_version":3
+    "name": "Kamasu chrome extension",
+    "description": "This is my fist chrome extension that i think wil be about history",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions":["storage"]
 }
