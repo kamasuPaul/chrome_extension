@@ -1,0 +1,6 @@
+{
+    "name":"Kamasu chrome extension",
+    "description":"This is my fist chrome extension that i think wil be about history",
+    "version":"1.0",
+    "manifest_version":3
+}
